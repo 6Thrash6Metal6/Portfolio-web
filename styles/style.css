@@ -24,6 +24,11 @@
   outline: 1px solid blue;
 }
 
+
+.flex-container {display:flex;}
+.flex-container {margin: 0;
+padding: 0;}
+
 body {
   margin: 0;
   padding: 0; 
