@@ -24,14 +24,29 @@
   outline: 1px solid blue;
 }
 
+* {
+  box-sizing: border-box;
+}
 
-.flex-container {display:flex;}
-.flex-container {margin: 0;
-padding: 0;}
+.body {
+  display: grid;
+  grid-template-rows: 4, 1fr;
+}
+.header{
+  display: grid;
+  grid-template-columns: 7, 1fr;
+}
 
-body {
-  margin: 0;
-  padding: 0; 
+.buttonheader {
+  grid-template-columns: 1 / 2, 1fr;
+}
+
+.imgheader{
+  grid-template-columns: 2 / 3, 1fr;
+}
+
+.headernom{
+  grid-template-columns: 3 / 4, 1fr;
 }
 
 /* HERO */
