@@ -28,30 +28,36 @@
   box-sizing: border-box;
 }
 
-.body {
-  display: grid;
-  grid-template-rows: 4, 1fr;
-}
-.header{
-  display: grid;
-  grid-template-columns: 7, 1fr;
+header {
+  display: flex; 
+  justify-content: space-evenly;
 }
 
-.buttonheader {
-  grid-template-columns: 1 / 2, 1fr;
+.sectionsheader {
+  display: flex; 
+  justify-content: space-evenly;
+  gap: 5em;
+  }
+
+nav {
+  display: inline-block;
 }
 
-.imgheader{
-  grid-template-columns: 2 / 3, 1fr;
+nav ul {
+  list-style: none;
+  list-style-type: none;
 }
 
-.headernom{
-  grid-template-columns: 3 / 4, 1fr;
+.logonom{
+  display:flex;
+  gap:1em;
 }
+
+
+
 
 /* HERO */
 
 .hero h1 {
   font-size: 50px;
 }
-

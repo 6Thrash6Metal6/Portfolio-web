@@ -9,8 +9,9 @@ Questions:
 
 Rendu-ou:
 
+- Voir avec le flex pour alligner mes conteneurs
+- Arranger l'organisation des éléments dans mon header
 - Faire les CSS des parties : du gros au petite section
-- Placer les conteneurs dans les bonnes collones et les bonnes lignes.
 - Remplir les liens avec le vrai lien même s'il n'est pas encore fais
 
 To do list:
