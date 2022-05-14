@@ -9,6 +9,7 @@ Questions:
 
 Rendu-ou:
 
+- Customiser les styles D'écritures
 - Mettre des images
 - Écrire le texte
 - Changer les buttons
