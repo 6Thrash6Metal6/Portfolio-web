@@ -18,6 +18,11 @@ h3{font-family: 'My Soul', cursive;
 font-size: x-large;
 }
 
+.nav_principale{
+  font-family: var(--special-font-sous-titre);
+  font-size: larger;
+}
+
 * {
   outline: 2px dotted red;
 }
@@ -101,15 +106,10 @@ header {
   width:230px;height:220px;
 }
 
-.intro{
-display: flex;
-align-items: center;
-
-}
-
 .intro {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
   width: 100%;
 }
@@ -124,8 +124,11 @@ align-items: center;
   font-size: 50px;
 }
 
-.hero_bas{
-
+.img_principales{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:280px;height:220px;
 }
 
 .nav_principale{
@@ -134,13 +137,48 @@ align-items: center;
   list-style: none;
   list-style-type: none;
   justify-content: space-evenly;
+  align-items: center;
+
 }
 
-.img_principales{
+.hero_bas_biographie{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width:280px;height:220px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_biographie{
+  width: 500px; height: 300px;
+}
+
+.hero_bas_experiences{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_experiences{
+  width: 500px; height: 300px;
+}
+
+.hero_bas_realisation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_realisation{
+  width: 500px; height: 300px;
+}
+
+.hero_bas_contacter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_contacter{
+  width: 500px; height: 300px;
 }
 
 .footer{

@@ -9,8 +9,7 @@ Questions:
 
 Rendu-ou:
 
-- Customiser les styles D'écritures
-- Mettre des images
+- Vérifier pourquoi la section hero bas n'est pas avec des liens
 - Écrire le texte
 - Changer les buttons
 - Verrouiller le header et le footer
